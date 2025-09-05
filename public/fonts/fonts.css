@@ -1,0 +1,176 @@
+/* Regular Iran Sans Fonts */
+@font-face {
+  font-family: 'IRANSansX';
+  src: url('./IranSansX(Pro)/IranSansX(Pro)/Webfonts/fonts/woff2/IRANSansX-Thin.woff2')
+    format('woff2');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IRANSansX';
+  src: url('./IranSansX(Pro)/IranSansX(Pro)/Webfonts/fonts/woff2/IRANSansX-UltraLight.woff2')
+    format('woff2');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IRANSansX';
+  src: url('./IranSansX(Pro)/IranSansX(Pro)/Webfonts/fonts/woff2/IRANSansX-Light.woff2')
+    format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IRANSansX';
+  src: url('./IranSansX(Pro)/IranSansX(Pro)/Webfonts/fonts/woff2/IRANSansX-Regular.woff2')
+    format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IRANSansX';
+  src: url('./IranSansX(Pro)/IranSansX(Pro)/Webfonts/fonts/woff2/IRANSansX-Medium.woff2')
+    format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IRANSansX';
+  src: url('./IranSansX(Pro)/IranSansX(Pro)/Webfonts/fonts/woff2/IRANSansX-DemiBold.woff2')
+    format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IRANSansX';
+  src: url('./IranSansX(Pro)/IranSansX(Pro)/Webfonts/fonts/woff2/IRANSansX-Bold.woff2')
+    format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IRANSansX';
+  src: url('./IranSansX(Pro)/IranSansX(Pro)/Webfonts/fonts/woff2/IRANSansX-ExtraBold.woff2')
+    format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IRANSansX';
+  src: url('./IranSansX(Pro)/IranSansX(Pro)/Webfonts/fonts/woff2/IRANSansX-Black.woff2')
+    format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Farsi Numeral Fonts */
+@font-face {
+  font-family: 'IRANSansXFaNum';
+  src: url('./IranSansX(Pro)/IranSansX(Pro)/Farsi numerals/Webfonts/Woff2/IRANSansXFaNum-Thin.woff2')
+    format('woff2');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IRANSansXFaNum';
+  src: url('./IranSansX(Pro)/IranSansX(Pro)/Farsi numerals/Webfonts/Woff2/IRANSansXFaNum-UltraLight.woff2')
+    format('woff2');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IRANSansXFaNum';
+  src: url('./IranSansX(Pro)/IranSansX(Pro)/Farsi numerals/Webfonts/Woff2/IRANSansXFaNum-Light.woff2')
+    format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IRANSansXFaNum';
+  src: url('./IranSansX(Pro)/IranSansX(Pro)/Farsi numerals/Webfonts/Woff2/IRANSansXFaNum-Regular.woff2')
+    format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IRANSansXFaNum';
+  src: url('./IranSansX(Pro)/IranSansX(Pro)/Farsi numerals/Webfonts/Woff2/IRANSansXFaNum-Medium.woff2')
+    format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IRANSansXFaNum';
+  src: url('./IranSansX(Pro)/IranSansX(Pro)/Farsi numerals/Webfonts/Woff2/IRANSansXFaNum-DemiBold.woff2')
+    format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IRANSansXFaNum';
+  src: url('./IranSansX(Pro)/IranSansX(Pro)/Farsi numerals/Webfonts/Woff2/IRANSansXFaNum-Bold.woff2')
+    format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IRANSansXFaNum';
+  src: url('./IranSansX(Pro)/IranSansX(Pro)/Farsi numerals/Webfonts/Woff2/IRANSansXFaNum-ExtraBold.woff2')
+    format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IRANSansXFaNum';
+  src: url('./IranSansX(Pro)/IranSansX(Pro)/Farsi numerals/Webfonts/Woff2/IRANSansXFaNum-Black.woff2')
+    format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Enable Persian/Farsi numerals for the entire application */
+body,
+* {
+  font-feature-settings: 'ss02' 1;
+  -moz-font-feature-settings: 'ss02' 1;
+  -webkit-font-feature-settings: 'ss02' 1;
+}
+
+/* Alternative: Use Farsi numeral font family for specific elements if needed */
+.fa-num {
+  font-family: 'IRANSansXFaNum', 'IRANSansX', sans-serif;
+}
