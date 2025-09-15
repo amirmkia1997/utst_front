@@ -87,10 +87,13 @@ export const useProjects = () => {
   const fetchProjects = async () => {
     try {
       setLoading(true);
+      console.log('Fetching projects...');
       const data = await projectApi.getAll();
+      console.log('Projects fetched:', data);
       setProjects(data);
       setError(null);
     } catch (err) {
+      console.error('Error fetching projects:', err);
       setError(err instanceof Error ? err.message : 'Failed to fetch projects');
     } finally {
       setLoading(false);

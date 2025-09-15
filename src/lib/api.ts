@@ -131,22 +131,33 @@ export const projectApi = {
   },
 
   async getAll() {
-    const { data, error } = await supabase
-      .from('projects')
-      .select(
+    console.log('projectApi.getAll called');
+    try {
+      const { data, error } = await supabase
+        .from('projects')
+        .select(
+          `
+          *,
+          users:user_id (
+            id,
+            name,
+            email
+          )
         `
-        *,
-        users:user_id (
-          id,
-          name,
-          email
         )
-      `
-      )
-      .order('created_at', { ascending: false });
+        .order('created_at', { ascending: false });
 
-    if (error) throw error;
-    return data;
+      if (error) {
+        console.error('Supabase error:', error);
+        throw error;
+      }
+
+      console.log('Projects data:', data);
+      return data;
+    } catch (err) {
+      console.error('Error in projectApi.getAll:', err);
+      throw err;
+    }
   },
 
   async getById(id: string) {
