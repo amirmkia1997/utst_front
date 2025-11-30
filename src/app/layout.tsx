@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
+import Script from 'next/script';
 import './globals.css';
 import 'antd/dist/reset.css';
 import { AntdProvider } from '../config/antd';
@@ -30,6 +31,13 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Script
+          id="digities-script"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `(function (d, g, t, i, e, s) {var o = d['digities'] = d['digities'] || {}; d[e] = d[e] || function () {(o.q = o.q || []).push(arguments); };var cdn_url = 'https://cdn.digities.tech/Gylgzv/amir-mohamad-WEBSITE-20580028';s = g.createElement(t); s.async = true; s.src = cdn_url; s.onload = function () { if (window.Publisher && window.Publisher.getInstance) {window.Publisher.getInstance().then(function(instance) {o.init = function() { return instance; };if (o.q) {o.q.forEach(function(args) {o.init.apply(o, args);});o.q = [];}});}};e = g.getElementsByTagName(t)[0]; e.parentNode.insertBefore(s, e);})(window, document, 'script', 'digities');`,
+          }}
+        />
         <AntdProvider>
           <CartProvider>{children}</CartProvider>
         </AntdProvider>
